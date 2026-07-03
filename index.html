@@ -1,5 +1,26 @@
-<div class="scene" id="scene"></div>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Western Record Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<audio id="audio" src="music.mp3"></audio>
+<body>
+
+<div class="scene" id="scene">
+
+  <!-- 黑胶 -->
+  <div class="vinyl" id="vinyl"></div>
+
+  <!-- 唱针 -->
+  <div class="tonearm" id="tonearm"></div>
+
+  <audio id="audio" src="music.mp3" preload="auto"></audio>
+
+</div>
 
 <script src="script.js"></script>
+</body>
+</html>
